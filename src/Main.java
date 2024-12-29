@@ -10,9 +10,14 @@ public class Main {
         regularMeal.setDrinkSide("LARGE");
         regularMeal.printItemizedList();*/
 
-        MealOrder secondMeal = new MealOrder("turkey", "7-up", "chili");
+        /*MealOrder secondMeal = new MealOrder("turkey", "7-up", "chili");
         secondMeal.addBurgerToppings("LETTUCE", "CHEESE", "MAYO");
         secondMeal.setDrinkSide("SMALL");
-        secondMeal.printItemizedList();
+        secondMeal.printItemizedList();*/
+
+        MealOrder deluxeMeal = new MealOrder("deluxe", "7-up", "chili");
+        deluxeMeal.addBurgerToppings("AVOCADO", "BACON", "LETTUCE", "CHEESE", "MAYO");
+        deluxeMeal.setDrinkSide("SMALL");
+        deluxeMeal.printItemizedList();
     }
 }
